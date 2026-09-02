@@ -1,0 +1,37 @@
+{
+  "generated_at_utc": "2026-09-02T17:23:36.893795+00:00",
+  "backend": "AerSimulator",
+  "state": "|Phi+>",
+  "shots_per_setting": 8192,
+  "classical_chsh_bound": 2.0,
+  "tsirelson_bound": 2.8284271247461903,
+  "S": 2.805419921875,
+  "absolute_S": 2.805419921875,
+  "violates_classical_bound": true,
+  "settings": {
+    "A0B0": {
+      "alpha_rad": 0.0,
+      "beta_rad": 0.39269908169872414,
+      "counts": {"01": 624, "10": 617, "00": 3408, "11": 3543},
+      "correlation": 0.697021484375
+    },
+    "A0B1": {
+      "alpha_rad": 0.0,
+      "beta_rad": -0.39269908169872414,
+      "counts": {"01": 586, "11": 3502, "10": 649, "00": 3455},
+      "correlation": 0.698486328125
+    },
+    "A1B0": {
+      "alpha_rad": 0.7853981633974483,
+      "beta_rad": 0.39269908169872414,
+      "counts": {"11": 3518, "10": 592, "00": 3469, "01": 613},
+      "correlation": 0.705810546875
+    },
+    "A1B1": {
+      "alpha_rad": 0.7853981633974483,
+      "beta_rad": -0.39269908169872414,
+      "counts": {"01": 3555, "11": 630, "00": 582, "10": 3425},
+      "correlation": -0.7041015625
+    }
+  }
+}
