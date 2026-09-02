@@ -1,0 +1,21 @@
+# Credentials / local environment
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local reproduction outputs
+results/reproduced_*.json
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
