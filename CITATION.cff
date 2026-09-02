@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the associated Quantum Revolt preprint and this repository."
+title: "Quantum Revolt Reproducibility Package"
+type: dataset
+authors:
+  - family-names: "Low"
+    given-names: "Pack Kwan"
+repository-code: "https://github.com/Jaycee871/Quantum-Revolt-Reproducibility"
+version: "1.0"
+date-released: "2026-09-03"
+abstract: >-
+  Public reproducibility materials for the repository-level CHSH operational
+  case study used in Quantum Revolt: Nietzsche, Camus, Kuhn, and the Limits of
+  Scientific Intelligibility. Includes frozen simulator and IBM Quantum
+  hardware results plus guarded reproduction scripts.
+keywords:
+  - CHSH
+  - quantum computation
+  - quantum foundations
+  - reproducibility
+  - philosophy of physics
