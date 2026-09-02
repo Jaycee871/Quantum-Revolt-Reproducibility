@@ -1,0 +1,54 @@
+{
+  "generated_at_utc": "2026-09-02T17:57:17.757057+00:00",
+  "provider": "IBM Quantum",
+  "backend": "ibm_marrakesh",
+  "backend_num_qubits": 156,
+  "pending_jobs_at_submission": 0,
+  "status_message_at_submission": "active",
+  "runtime_job_id": "dac66td1ierc738j6srg",
+  "shots_per_setting": 512,
+  "optimization_level": 1,
+  "state": "|Phi+>",
+  "classical_chsh_bound": 2.0,
+  "tsirelson_bound": 2.8284271247461903,
+  "S": 2.6796875,
+  "absolute_S": 2.6796875,
+  "violates_classical_bound": true,
+  "approx_independent_shot_standard_error_S": 0.06555482654740907,
+  "approx_standard_errors_above_classical_bound": 10.368229706297091,
+  "measurement_results": {
+    "A0B0": {
+      "counts": {"00": 203, "01": 44, "11": 226, "10": 39},
+      "correlation": 0.67578125
+    },
+    "A0B1": {
+      "counts": {"01": 51, "00": 200, "11": 220, "10": 41},
+      "correlation": 0.640625
+    },
+    "A1B0": {
+      "counts": {"00": 200, "11": 220, "01": 58, "10": 34},
+      "correlation": 0.640625
+    },
+    "A1B1": {
+      "counts": {"11": 32, "01": 212, "00": 39, "10": 229},
+      "correlation": -0.72265625
+    }
+  },
+  "transpilation_summary": {
+    "physical_qubits": [0, 1],
+    "circuit_depth_each": 8,
+    "two_qubit_gate_count_each": 1,
+    "native_two_qubit_gate": "cz",
+    "A0B0_size": 12,
+    "A0B1_size": 12,
+    "A1B0_size": 15,
+    "A1B1_size": 15
+  },
+  "reproducibility": {
+    "github_actions_run_id": 33664179371,
+    "github_artifact_id": 9859892702,
+    "github_artifact_sha256": "20d895dfdd600dffa84729e97233c038136d773223df84fc577c0999ddb7edc1",
+    "experiment_script": "experiments/ibm_chsh_hardware.py"
+  },
+  "interpretive_scope": "Real-QPU operational CHSH demonstration on a single IBM processor; not a loophole-free Bell test and not a new experimental test of Bell nonlocality."
+}
