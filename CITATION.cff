@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this reproducibility package, please cite the associated Quantum Revolt preprint and this repository."
+message: "If you use this reproducibility package, please cite the associated Quantum Revolt OSF registration (DOI: 10.17605/OSF.IO/U2VFK) and this repository."
 title: "Quantum Revolt Reproducibility Package"
 type: dataset
 authors:
@@ -12,7 +12,8 @@ abstract: >-
   Public reproducibility materials for the repository-level CHSH operational
   case study used in Quantum Revolt: Nietzsche, Camus, Kuhn, and the Limits of
   Scientific Intelligibility. Includes frozen simulator and IBM Quantum
-  hardware results plus guarded reproduction scripts.
+  hardware results plus guarded reproduction scripts. The associated public
+  retrospective OSF registration is available at DOI 10.17605/OSF.IO/U2VFK.
 keywords:
   - CHSH
   - quantum computation
