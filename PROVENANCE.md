@@ -14,6 +14,19 @@ Snapshot reference for the manuscript repository at the time this public reprodu
 
 `01dc742930f5089b80d9833622c86ca81ceb2d38`
 
+## Public OSF registration
+
+A public retrospective registration now provides a timestamped scholarly record of the project:
+
+- Registration DOI: `10.17605/OSF.IO/U2VFK`
+- DOI URL: `https://doi.org/10.17605/OSF.IO/U2VFK`
+- Associated OSF Project: `https://osf.io/chybd`
+- License: `CC BY 4.0 International`
+- Registration status: public
+- Registration character: retrospective; not a prospective preregistration
+
+The registration explicitly records that the conceptual framework, literature analysis, simulator run, and IBM Quantum hardware run had already been completed before registration. Its purpose is transparency, provenance, and timestamped documentation rather than prospective confirmatory preregistration.
+
 ## Simulator record
 
 Original source path:
