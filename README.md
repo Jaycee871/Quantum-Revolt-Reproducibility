@@ -4,7 +4,18 @@ Public reproducibility materials for the preprint **Quantum Revolt: Nietzsche, C
 
 ## Purpose
 
-This repository is a deliberately minimal public data and reproducibility snapshot for OSF / MetaArXiv and related preprint records. It is separate from the manuscript-development repository so that submission metadata, reviewer notes, GitHub credential tests, and internal research materials are not mixed with the public reproducibility record.
+This repository is a deliberately minimal public data and reproducibility snapshot for OSF / MetaArXiv and related research records. It is separate from the manuscript-development repository so that submission metadata, reviewer notes, GitHub credential tests, and internal research materials are not mixed with the public reproducibility record.
+
+## Public registration
+
+The associated project now has a public retrospective OSF registration:
+
+- **Registration DOI:** https://doi.org/10.17605/OSF.IO/U2VFK
+- **Associated OSF Project:** https://osf.io/chybd
+- **License:** CC BY 4.0 International
+- **Registration type:** retrospective registration; not a prospective preregistration
+
+The registration archives the manuscript and records that the conceptual framework, literature analysis, simulator run, and IBM Quantum hardware run had already been completed before registration.
 
 ## What is reproduced here
 
@@ -24,7 +35,8 @@ The classical CHSH bound is 2. The Tsirelson bound is approximately 2.828427.
 - `experiments/chsh_simulator.py` — standalone simulator reproduction script reconstructed from the original Phase-1 workflow.
 - `experiments/ibm_chsh_hardware.py` — guarded IBM Quantum hardware script. It will not submit a QPU job without explicit `--confirm-hardware-run` acknowledgement.
 - `REPRODUCIBILITY.md` — reproduction instructions, scope, and limitations.
-- `PROVENANCE.md` — provenance of the frozen records and links to the manuscript-development repository.
+- `PROVENANCE.md` — provenance of the frozen records and links to the manuscript-development repository and OSF registration.
+- `DATA_DICTIONARY.md` — field-level description of the frozen JSON records.
 - `requirements.txt` — required Python packages. Exact package versions were not frozen in the original run; this limitation is documented.
 
 ## Data availability statement
@@ -41,4 +53,8 @@ Development repository: `Jaycee871/Beyond-the-Paradigm-Nietzsche-Camus-and-the-P
 
 ## Citation
 
-Please cite the associated preprint once its persistent identifier is available. Until then, cite this repository as the reproducibility package for *Quantum Revolt* by Pack Kwan Low.
+For the timestamped research record, cite the OSF registration DOI:
+
+**Low, Pack Kwan. Quantum Revolt: Nietzsche, Camus, Kuhn, and the Limits of Scientific Intelligibility. OSF Registration. https://doi.org/10.17605/OSF.IO/U2VFK**
+
+This repository should be cited additionally when the reproducibility materials, frozen CHSH outputs, or reproduction scripts are used directly.
